@@ -42,7 +42,7 @@
       "sudo useradd -g hab hab",
       "usermod -aG sudo hab",
       "curl https://raw.githubusercontent.com/habitat-sh/habitat/master/components/hab/install.sh | sudo bash",
-      "sudo hab sup start learn/mongodb",
+      "sudo hab sup load learn/mongodb",
       "sudo hab sup config learn/mongodb >> mongodb.toml",
       "hab config apply --peer 127.0.0.1 mongodb.default 1 mongodb.toml",
       "DEBUG=1 hab sup load learn/national-parks --bind database:mongodb.default",
