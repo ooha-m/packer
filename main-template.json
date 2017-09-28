@@ -186,11 +186,11 @@
                         "osType": "Linux",
                         "name": "[variables('vmName')]",
                         "image": {
-                            "uri": "https://oohasa2.blob.core.windows.net/images/pkrospb0nhtxw7x.vhd"
+                            "uri": "https://oohanewsa.blob.core.windows.net/system/Microsoft.Compute/Images/images/packer-osDisk.9b8e95e3-d793-4624-8f4e-16b177f0b255.vhd"
                             
                         },
                         "vhd": {
-                            "uri": "[concat('https', '://', 'oohasa2', '.blob.core.windows.net', concat('/vhds/', variables('vmName'),'20170920191416.vhd'))]"
+                            "uri": "[concat('https', '://', 'oohanewsa', '.blob.core.windows.net', concat('/vhds/', variables('vmName'),'20170920191416.vhd'))]"
                         },
                         "caching": "ReadWrite",
                         "createOption": "FromImage",
